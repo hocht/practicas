@@ -1,0 +1,1 @@
+Este es el directorio de todas mis practicas de Platzi
