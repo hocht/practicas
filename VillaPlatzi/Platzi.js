@@ -1,7 +1,7 @@
 var vp = document.getElementById("villaplatziX");
 var papel = vp.getContext("2d");
 
-
+// esto es un comentario 
 var fondo = {
     url: "tile.png",
     cargaok: false,
@@ -25,7 +25,6 @@ function cargarFondo() {
     fondo.cargaok = true;
     dibujar();
 }
-
 
 function cargarVacas() {
     vaca.cargaok = true;
