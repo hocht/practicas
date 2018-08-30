@@ -1,4 +1,6 @@
 Este es el directorio de todas mis practicas de Platzi
 
 - Aqui voy a listar los cambios
-- este es cambio para probar diff
+- Este es cambio para probar diff
+- Probando comando commit -a
+- Probando que sube todo a git hub
