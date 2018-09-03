@@ -10,17 +10,36 @@
 
 <body>
     <h1>Nespi</h1>
-    <div id="lista de comandos">
+    <div id="frente">
         <h2>Lista de comandos</h2>
         <ul>
-            <li><b>modificar permisos de carpeta por usuario</b>
-                <p>sudo chown usuario /var/www/html</p>
+        	<li><b>Ejecutar monitor</b>
+                <p>sudo nodejs Raspberry-Pi-Status/server.js </p>
             </li>
             <li><b>Activar Bluethoot para el control de wii</b>
                 <p>systemctl start bluetooth</p>
                 <p>bluetoothctl</p>
             </li>
+            <li><b>Borrar archivos</b>
+                <p>sudo rm </p>
+            </li>
+            </li>
+            <li><b>Borrar carpetas</b>
+                <p>sudo rm -R</p>
+            </li>
+            <li><b>modificar permisos de carpeta por usuario</b>
+                <p>sudo chown usuario /var/www/html</p>
+            </li>
+            </li>
+            <li><b>modificar permisos de carpeta universales</b>
+                <p>sudo chmod 777 /var/www/html </p>
+            </li>
         </ul>
+    </div>
+    <div>
+    	<form action="http://10.0.0.13:8000">
+            <input type=submit value="Monitorear »" class="generico">
+        </form>
     </div>
 </body>
 
