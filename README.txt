@@ -5,3 +5,4 @@ Este es el directorio de todas mis practicas de Platzi
 - Probando comando commit -a
 - Probando que sube todo a git hub
 - Todo en orden hasta ahora 
+- Subiendo a raspberry
