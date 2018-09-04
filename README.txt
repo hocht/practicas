@@ -7,5 +7,6 @@ Este es el directorio de todas mis practicas de Platzi
 - Todo en orden hasta ahora 
 - Subiendo a raspberry
 - Añadida pagina de Nespi con monitoreo y lista de codigos
--Añadida pagina de herramientas de diseño para Configurala
--añadiendo gestor 
+- Añadida pagina de herramientas de diseño para Configurala
+- Añadiendo gestor 
+- Actualizada lista de cambios con los codigos para hacer scripts
