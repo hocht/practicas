@@ -14,13 +14,13 @@
     <div id="frente">
         <h2>Lista de comandos</h2>
         <ul>
-        	<li><b>Configuracion de raspberry</b>
+            <li><b>Configuracion de raspberry</b>
                 <p>sudo raspi-config </p>
             </li>
             <li><b>Configuracion Retropie</b>
                 <p>sudo /home/pi/RetroPie-Setup/retropie_setup.sh </p>
             </li>
-        	<li><b>Ejecutar monitor</b>
+            <li><b>Ejecutar monitor</b>
                 <p>sudo nodejs Raspberry-Pi-Status/server.js </p>
             </li>
             <li><b>Activar Bluethoot para el control de wii</b>
@@ -41,10 +41,40 @@
             <li><b>modificar permisos de carpeta universales</b>
                 <p>sudo chmod 777 /var/www/html </p>
             </li>
+            <li><b>Ver distribucion de espacio</b>
+                <p>ncdu / </p>
+            </li>
+            </li>
+            <li><b>Reboot</b>
+                <p>sudo reboot </p>
+            </li>
+            </li>
+            <li><b>Shutdown</b>
+                <p>sudo shutdown -h now</p>
+            </li>
+            <li><b>Change Directory</b>
+                <p>cd /path/to/directory</p>
+            </li>
+            <li><b>Edit Files with Nano</b>
+                <p>sudo nano /path/to/file.txt</p>
+            </li>
+            <li><b>Change owner to Pi</b>
+                <p>sudo chown pi:pi filetobechanged</p>
+            </li>
+            <li><b>Change owner of folder and all files in folder to Pi</b>
+                <p>sudo chown -R pi:pi /folder/to/be/changed</p>
+            </li>
+            <li><b>Make shell script executable</b>
+                <p>sudo chmod +x yourshellscript.sh</p>
+            </li>
+            <li><b>list Files in Current Directory</b>
+                <p>ls</p>
+            </li>
+
         </ul>
     </div>
     <div>
-    	<form action="http://10.0.0.13:8001">
+        <form action="http://10.0.0.13:8001">
             <input type=submit value="Monitorear »" class="generico">
         </form>
         <form action="http://10.0.0.13:8000">
