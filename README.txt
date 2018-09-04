@@ -8,3 +8,4 @@ Este es el directorio de todas mis practicas de Platzi
 - Subiendo a raspberry
 - Añadida pagina de Nespi con monitoreo y lista de codigos
 -Añadida pagina de herramientas de diseño para Configurala
+-añadiendo gestor 
