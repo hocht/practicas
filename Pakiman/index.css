@@ -24,22 +24,22 @@ body {
 
 
 
-    #Temario,
-    #Calendario,
-    #Meto,
+    #VillaPlatzi,
+    #FizzBozz,
+    #Pakiman,
     #configurala,
     #video {
         float: right;
         padding: 0;
         margin: 0;
     }
-    #Temario {
+    #VillaPlatzi {
         width: 25%;
     }
-    #Calendario {
+    #FizzBozz {
         width: 25%
     }
-    #Meto {
+    #Pakiman {
         width: 25%;
     }
     #configurala {
