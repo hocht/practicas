@@ -1,50 +1,142 @@
 body {
     width: 90%;
     margin: auto;
-    background: #494949;
+    background: #494949
 }
 
 @media (min-width: 1201px) {
     h1 {
-        text-align: left;
+        text-align: center;
         font-size: 60px;
     }
     #frente {
+        border-radius: 35px;
         background: #007ca5;
-        margin: 2em;
-        padding: 2em;
-        width: 1000px;
+        margin: 0em;
+        padding-left: 4em;
+        padding-right: 4em;
+        padding-top: 0em;
+        padding-bottom: 2em;
+        width: 1200px;
     }
 
     #cabecera {
         margin: 0em auto;
-        padding: 10em;
+        padding: 0em;
         font-size: 20px;
     }
 
 
-
-    #VillaPlatzi,
-    #FizzBozz,
-    #Pakiman,
-    #configurala,
-    #video {
+  #VillaPlatzi, #FizzBozz, #Pakiman, #Configurala, #video {
         float: right;
         padding: 0;
         margin: 0;
     }
-    #VillaPlatzi {
+    
+    #VillaPlatzi{
         width: 25%;
     }
-    #FizzBozz {
-        width: 25%
-    }
-    #Pakiman {
+    #FizzBozz{
         width: 25%;
     }
-    #configurala {
+    #Pakiman{
         width: 25%;
     }
+    #Configurala{
+        width: 25%;
+    }
+
+
+    #botonamarillo {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #ffbf00;
+        border-radius: 6px;
+        border: 4px solid #ffffff;
+    }
+
+    #botonamarillo:hover {
+        color: #ffbf00;
+        background-color: #ffffff;
+        border: 4px solid #ffbf00
+    }
+
+    #botonazul {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #007ca5;
+        border-radius: 6px;
+        border: 4px solid #ffffff;
+    }
+
+    #botonazul:hover {
+        color: #007ca5;
+        background-color: #ffffff;
+        border: 4px solid #007ca5;
+    }
+
+    #botonverde {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #11bf4b;
+        border-radius: 6px;
+        border: 4px solid #ffffff;
+    }
+
+    #botonverde:hover {
+        color: #11bf4b;
+        background-color: #ffffff;
+        border: 4px solid #11bf4b;
+    }
+
+    #botonrojo {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #f15025;
+        border-radius: 6px;
+        border: 4px solid #ffffff;
+    }
+
+    #botonrojo:hover {
+        color: #f15025;
+        background-color: #ffffff;
+        border: 4px solid #f15025;
+    }
+
+    #botongris {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #494949;
+        border-radius: 6px;
+        border: 4px solid #ffffff;
+    }
+
+    #botongris:hover {
+        color: #494949;
+        background-color: #ffffff;
+        border: 4px solid #494949;
+    }
+
+    .imagen{
+        width: 768px;
+        height: 315px;
+    }
+
 }
 
 @media (min-width: 601px) and (max-width: 1200px) {
@@ -66,13 +158,69 @@ body {
     }
     #apartados {
         list-style-type: none;
-        padding: 0;
+        padding: 1;
     }
     #apartados li {
         float: left;
         width: 33%
     }
+     #VillaPlatzi {
+        background-color: #007ca5;
+    }
+
+    #FizzBozz {
+        background-color: #ffbf00;
+    }
+
+    #Pakiman {
+        background-color: #11bf4b;
+    }
+
+    #Configurala {
+        background-color: #f15025;
+    }
+    #botonazul,
+    #botonamarillo,
+    #botonverde,
+    #botonrojo{
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #494949;
+        border-radius: 6px;
+        border: 4px solid #ffffff
+    }
+    #botonazul:hover,
+    #botonamarillo:hover,
+    #botonverde:hover,
+    #botonrojo:hover{
+         color: #494949;
+        background-color: #ffffff;
+        border: 4px solid #494949;
+    }
+
+    #botongris {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #ffbf00;
+        border-radius: 6px;
+        border: 4px solid #ffffff;
+    }
+
+    #botongris:hover {
+        color: #ffbf00;
+        background-color: #ffffff;
+        border: 4px solid #ffbf00
+    }
+
+
 }
+
 
 @media (max-width: 600px) {
     #datos li {
@@ -80,5 +228,57 @@ body {
     }
     #datos li:after {
         content: ";";
+    }
+    #VillaPlatzi {
+        background-color: #007ca5;
+    }
+
+    #FizzBozz {
+        background-color: #ffbf00;
+    }
+
+    #Pakiman {
+        background-color: #11bf4b;
+    }
+
+    #Configurala {
+        background-color: #f15025;
+    }
+    #botonazul,
+    #botonamarillo,
+    #botonverde,
+    #botonrojo{
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #494949;
+        border-radius: 6px;
+        border: 4px solid #ffffff
+    }
+    #botonazul:hover,
+    #botonamarillo:hover,
+    #botonverde:hover,
+    #botonrojo:hover{
+         color: #494949;
+        background-color: #ffffff;
+        border: 4px solid #494949;
+    }
+    #botongris {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #ffbf00;
+        border-radius: 6px;
+        border: 4px solid #ffffff;
+    }
+
+    #botongris:hover {
+        color: #ffbf00;
+        background-color: #ffffff;
+        border: 4px solid #ffbf00
     }
 }

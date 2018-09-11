@@ -27,7 +27,7 @@ function DibujarLinea(color, xinicial, yinicial, xfinal, yfinal,lienzox) {
 
 
 function dibujar_teclado(evento) {
-	var color = "#1C05F9FF";
+	var color = "#11bf4b";
 	var movimiento = 10;
 
     switch (evento.keyCode) {

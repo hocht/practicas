@@ -13,7 +13,7 @@ function dibujoPorClick() {
     var l = 0,
     n = 30;
     var yi, yf, xi, xf;
-    var colorin = "#EDDB11FF";
+    var colorin = "#f15025";
     var espacio = ancho / lineas;
 
     function DibujarLinea(color, xinicial, yinicial, xfinal, yfinal) {
