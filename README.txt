@@ -12,3 +12,4 @@ Este es el directorio de todas mis practicas de Platzi
 - Actualizada lista de cambios con los codigos para hacer scripts
 - Se añadieron las practicas a los botones y se les añadio una hoja de estilo 
 - Añadido el estilo de los botones 
+- Cambios de diseño en los botones y en los colores de fondo en modo movil
