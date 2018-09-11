@@ -10,4 +10,5 @@ Este es el directorio de todas mis practicas de Platzi
 - Añadida pagina de herramientas de diseño para Configurala
 - Añadiendo gestor 
 - Actualizada lista de cambios con los codigos para hacer scripts
-- se añadieron las practicas a los botones y se les añadio una hoja de estilo 
+- Se añadieron las practicas a los botones y se les añadio una hoja de estilo 
+- Añadido el estilo de los botones 
