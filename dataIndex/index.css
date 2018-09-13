@@ -187,6 +187,7 @@
         width: 33%
     }
     #VillaPlatzi, #Dibujar {
+        color: #000000FF;
         background-color: #007ca5;
         text-align: center;
         padding: 20px;
@@ -194,18 +195,21 @@
     }
 
     #Cajero, #FizzBozz {
+        color: #000000FF;
         background-color: #ffbf00;
         text-align: center;
         padding: 20px;
             }
 
     #Pakiman {
+        color: #000000FF;
         background-color: #11bf4b;
         text-align: center;
         padding: 20px;
     }
 
     #Configurala {
+        color: #000000FF;
         background-color: #f15025;
         text-align: center;
         padding: 20px;
@@ -270,21 +274,25 @@
     #VillaPlatzi, #Dibujar {
         background-color: #007ca5;
         text-align: center;
+        color: #000000FF;
     }
 
     #Cajero, #FizzBozz {
+        color: #000000FF;
         background-color: #ffbf00;
         text-align: center;
         padding: 20px;
     }
 
     #Pakiman {
+        color: #000000FF;
         background-color: #11bf4b;
         text-align: center;
         padding: 20px;
     }
 
     #Configurala {
+        color: #000000FF;
         background-color: #f15025;
         text-align: center;
         padding: 20px;
