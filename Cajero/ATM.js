@@ -60,6 +60,6 @@ var dinero = 0;
 var div = 0;
 var papeles = 0;
 
-var b = document.getElementById("extraer");
+var b = document.getElementById("botonrojo");
 var resultado = document.getElementById("resultado");
 b.addEventListener("click",EntregarDinero)
