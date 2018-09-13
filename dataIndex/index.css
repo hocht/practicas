@@ -156,7 +156,9 @@
      body {
         width: 100%;
         margin: auto;
-        background: #494949
+        background: #494949;
+        color:#FFFFFFFF;
+        text-align: center;
     }
     h1 {
         text-align: center;
@@ -187,21 +189,26 @@
     #VillaPlatzi, #Dibujar {
         background-color: #007ca5;
         text-align: center;
+        padding: 20px;
+
     }
 
     #Cajero, #FizzBozz {
         background-color: #ffbf00;
         text-align: center;
-    }
+        padding: 20px;
+            }
 
     #Pakiman {
         background-color: #11bf4b;
         text-align: center;
+        padding: 20px;
     }
 
     #Configurala {
         background-color: #f15025;
         text-align: center;
+        padding: 20px;
     }
     #botonazul,
     #botonamarillo,
@@ -210,7 +217,7 @@
         text-decoration: none;
         padding: 5px;
         font-weight: 550;
-        font-size: 40px;
+        font-size: 50px;
         color: #ffffff;
         background-color: #494949;
         border-radius: 6px;
@@ -229,7 +236,7 @@
         text-decoration: none;
         padding: 5px;
         font-weight: 550;
-        font-size: 40px;
+        font-size: 50px;
         color: #ffffff;
         background-color: #ffbf00;
         border-radius: 6px;
@@ -249,12 +256,16 @@
         width: 100%;
         margin: auto;
         background: #494949
+        color:#FFFFFFFF;
+        text-align: center;
     }
     #datos li {
         display: inline;
     }
     #datos li:after {
         content: ";";
+
+
     }
     #VillaPlatzi, #Dibujar {
         background-color: #007ca5;
@@ -264,16 +275,19 @@
     #Cajero, #FizzBozz {
         background-color: #ffbf00;
         text-align: center;
+        padding: 20px;
     }
 
     #Pakiman {
         background-color: #11bf4b;
         text-align: center;
+        padding: 20px;
     }
 
     #Configurala {
         background-color: #f15025;
         text-align: center;
+        padding: 20px;
     }
     #botonazul,
     #botonamarillo,
@@ -282,7 +296,7 @@
         text-decoration: none;
         padding: 5px;
         font-weight: 550;
-        font-size: 40px;
+        font-size: 50px;
         color: #ffffff;
         background-color: #494949;
         border-radius: 6px;
@@ -300,7 +314,7 @@
         text-decoration: none;
         padding: 5px;
         font-weight: 550;
-        font-size: 40px;
+        font-size: 50px;
         color: #ffffff;
         background-color: #ffbf00;
         border-radius: 6px;
