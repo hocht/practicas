@@ -49,17 +49,21 @@
     #Configurala {
         width: 25%;
     }
-    #Dibujar #FizzBozz {
+     #Dibujar #FizzBozz {
         float: right;
         padding: 0;
         margin: 0;
     }
     #FizzBozz {
-        width: 25%;
+        width: 50%;
     }
     #Dibujar {
-        width: 25%;
+        width: 50%;
     }
+   #primerafila, #segundafila{
+    margin: 0em auto;
+        padding: 0em;
+   }
 
     #botonamarillo {
         text-decoration: none;
@@ -161,6 +165,7 @@
         text-align: center;
     }
     h1 {
+        font-size: 80px;
         text-align: center;
     }
     #datos,
@@ -242,15 +247,15 @@
         font-weight: 550;
         font-size: 50px;
         color: #ffffff;
-        background-color: #ffbf00;
+        background-color: #f15025;
         border-radius: 6px;
         border: 4px solid #ffffff;
     }
 
     #botongris:hover {
-        color: #ffbf00;
+        color: #f15025;
         background-color: #ffffff;
-        border: 4px solid #ffbf00
+        border: 4px solid #f15025
     }
 }
 
@@ -259,8 +264,12 @@
      body {
         width: 100%;
         margin: auto;
-        background: #494949
+        background: #494949;
         color:#FFFFFFFF;
+        text-align: center;
+    }
+    h1 {
+        font-size: 60px;
         text-align: center;
     }
     #datos li {
@@ -324,14 +333,14 @@
         font-weight: 550;
         font-size: 50px;
         color: #ffffff;
-        background-color: #ffbf00;
+        background-color: #f15025;
         border-radius: 6px;
         border: 4px solid #ffffff;
     }
 
     #botongris:hover {
-        color: #ffbf00;
+        color: #f15025;
         background-color: #ffffff;
-        border: 4px solid #ffbf00
+        border: 4px solid #f15025
     }
 }
