@@ -8,6 +8,7 @@
     h1 {
         text-align: center;
         font-size: 60px;
+        font-family: 'Baloo Tammudu', cursive;
     }
     #frente {
         border-radius: 35px;
@@ -35,6 +36,7 @@
         float: right;
         padding: 0;
         margin: 0;
+        color: #FFFFFFFF;
     }
 
     #VillaPlatzi {
@@ -49,7 +51,7 @@
     #Configurala {
         width: 25%;
     }
-     #Dibujar #FizzBozz {
+    #Dibujar #FizzBozz {
         float: right;
         padding: 0;
         margin: 0;
@@ -60,10 +62,12 @@
     #Dibujar {
         width: 50%;
     }
-   #primerafila, #segundafila{
-    margin: 0em auto;
+    #primerafila,
+    #segundafila {
+        color: #FFFFFFFF;
+        margin: 0em auto;
         padding: 0em;
-   }
+    }
 
     #botonamarillo {
         text-decoration: none;
@@ -157,16 +161,18 @@
 }
 
 @media (min-width: 601px) and (max-width: 1200px) {
-     body {
+    body {
         width: 100%;
         margin: auto;
         background: #494949;
-        color:#FFFFFFFF;
+        color: #FFFFFFFF;
         text-align: center;
     }
     h1 {
         font-size: 80px;
         text-align: center;
+        color: #FFFFFFFF;
+        font-family: 'Baloo Tammudu', cursive;
     }
     #datos,
     #principal {
@@ -191,20 +197,21 @@
         float: left;
         width: 33%
     }
-    #VillaPlatzi, #Dibujar {
+    #VillaPlatzi,
+    #Dibujar {
         color: #000000FF;
         background-color: #007ca5;
         text-align: center;
         padding: 20px;
-
     }
 
-    #Cajero, #FizzBozz {
+    #Cajero,
+    #FizzBozz {
         color: #000000FF;
         background-color: #ffbf00;
         text-align: center;
         padding: 20px;
-            }
+    }
 
     #Pakiman {
         color: #000000FF;
@@ -261,32 +268,34 @@
 
 
 @media (max-width: 600px) {
-     body {
+    body {
         width: 100%;
         margin: auto;
         background: #494949;
-        color:#FFFFFFFF;
+        color: #FFFFFFFF;
         text-align: center;
     }
     h1 {
         font-size: 60px;
         text-align: center;
+        color: #FFFFFFFF;
+        font-family: 'Baloo Tammudu', cursive;
     }
     #datos li {
         display: inline;
     }
     #datos li:after {
         content: ";";
-
-
     }
-    #VillaPlatzi, #Dibujar {
+    #VillaPlatzi,
+    #Dibujar {
         background-color: #007ca5;
         text-align: center;
         color: #000000FF;
     }
 
-    #Cajero, #FizzBozz {
+    #Cajero,
+    #FizzBozz {
         color: #000000FF;
         background-color: #ffbf00;
         text-align: center;
