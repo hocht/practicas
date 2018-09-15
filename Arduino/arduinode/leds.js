@@ -12,11 +12,11 @@ function prender()
 	var led09 = new jf.Led(9);
 	var led08 = new jf.Led(8);
 	var led07 = new jf.Led(7);
-	led13.blink(500);
-	led12.blink(500);
-	led11.blink(500);
-	led10.blink(500);
-	led09.blink(500);
-	led08.blink(500);
-	led07.blink(500);
+	led13.blink(80);
+	led12.blink(80);
+	led11.blink(80);
+	led10.blink(80);
+	led09.blink(80);
+	led08.blink(80);
+	led07.blink(80);
 }
