@@ -13,4 +13,5 @@ Este es el directorio de todas mis practicas de Platzi
 - Se añadieron las practicas a los botones y se les añadio una hoja de estilo 
 - Añadido el estilo de los botones 
 - Cambios de diseño en los botones y en los colores de fondo en modo movil
-_- Añadido ejercicio de cajero automatico con hoja de estilo propia
+- Añadido ejercicio de cajero automatico con hoja de estilo propia
+- Añadido robot en arduino controlado por nodejs
